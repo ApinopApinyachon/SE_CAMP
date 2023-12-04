@@ -1,0 +1,47 @@
+
+h1{
+   font-family: 'PT Serif';
+    font-size: 4rem;
+}
+
+#myP{
+    font-size: 48pt;
+}
+
+.myfont{
+    font-size: 48pt;
+}
+
+.h1{
+    font-size: 16pt;
+}
+
+.coRed{
+    color: #ff22ff;
+    color:rgb(0, 255, 0 );
+    color: hsl(9, 50%, 50%);
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    color: rgba(255,255,255);
+    background-color: rgb(88,90,88);
+    text-align: center;
+    vertical-align: middle;
+    border: 5px dashed rgb(0, 255, 0);
+    padding-top: 10px;
+    margin: 50% 25px;
+}
+
+.box:hover{
+    background-color: rgb(118, 11, 19);
+}
+
+a{
+    color:#ff22ff;
+}
+
+a:link{
+    color:aqua;
+}
