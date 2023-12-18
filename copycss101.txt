@@ -29,3 +29,78 @@
 
 
 </html>
+
+
+
+
+body{
+    font-family: 'Mitr', sans-serif;
+    font-size: 2rem;
+}
+
+
+
+.h1{
+    font-size: 16pt;
+} 
+
+.coRed{
+    color: #ff22ff;
+    color:rgb(0, 255, 0 );
+    color: hsl(9, 50%, 50%);
+} 
+
+.box{
+    width: 400px;
+    height: 400px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(88, 90, 88);
+    text-align: center;
+    border: 5px dashed rgb(103, 135, 103);
+    padding-top: 10px;
+    margin: 50px 25px;
+
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.box:hover{
+    background-color: rgb(118, 11, 19);
+    box-shadow: 20px 10px 30px  rgb(242, 20, 20);
+}
+
+a{
+    color:#ff22ff;
+}
+
+a:link {
+    color:aqua;
+}
+
+p.normal {
+    font-style: normal;
+    font-weight: bold;
+}
+
+p.italic {
+    font-style: italic;
+    font-weight: bold;
+}
+
+div > div > p {
+    font-size: larger;
+    font-weight: bold;
+}
+
+div > p {
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.normal.font16 {
+    font-size: 16pt;
+    font-weight: bold;
+
+} 
