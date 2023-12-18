@@ -1,11 +1,11 @@
 
 h1{
    font-family: 'PT Serif';
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 #myP{
-    font-size: 48pt;
+    font-size: 100pt;
 }
 
 .myfont{
@@ -42,6 +42,31 @@ a{
     color:#ff22ff;
 }
 
-a:link{
+a:link {
     color:aqua;
+}
+p.normal {
+    font-style: normal;
+    font-weight: bold;
+}
+
+p.italic {
+    font-style: italic;
+    font-weight: bold;
+}
+
+div > div > p {
+    font-size: larger;
+    font-weight: bold;
+}
+
+div > p {
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.normal.font16 {
+    font-size: 16pt;
+    font-weight: bold;
+
 }
