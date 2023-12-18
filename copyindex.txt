@@ -196,5 +196,36 @@
             </table>
             <br><br><br>
         </form>
+
+        
+        <p class="">
+            font normal
+        </p>
+
+        <p class="italic">
+            font italic
+        </p>
+        <p class="normal">
+            font normal
+        </p>
+        <div>
+            <div>
+                <p>  div div and p</p>
+            </div>
+            <p>div and p</p>
+        </div>    
+
+        <a href="https://www.google.com" target="_blank">
+            Google
+        </a>
+        
+        <a href="#myP">
+            Google
+        </a>
+        
+        <br><br>
+
+
+
     </body>
 </html>
