@@ -70,3 +70,9 @@ div > p {
     font-weight: bold;
 
 } 
+
+.box2 {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+}
