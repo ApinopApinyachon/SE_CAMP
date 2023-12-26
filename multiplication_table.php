@@ -11,28 +11,30 @@
     <?php $multi_x = 2; ?>
     <?php $result = 0; ?>
 
-    <div class=h1div>
-        <h1>ตารางสูตรคูณแม่ <?php echo $multi_x ?></h1>
-    </div>
     
         <div class=container>
-            <div class=multitable>
-                <?php 
-                    for($i=1 ; $i <= 24 ; $i++){
-                        echo "$multi_x x $i = ".($multi_x * $i);
-                        echo "<br>";
-                    }
-                ?>
+
+            <div class=h1div>
+                <h1>ตารางสูตรคูณแม่ <?php echo $multi_x ?></h1>
+            </div>   
+
+            <div>
+                <div class=multitable>
+                    <?php 
+                        for($i=1 ; $i <= 24 ; $i++){
+                            echo "$multi_x x $i = ".($multi_x * $i);
+                            echo "<br>";
+                        }
+                    ?>
+                </div>
             </div>
+                
         </div>
-    
+     
 
     <style>
-        
-
-
         .multitable{
-            margin: 100px;
+            margin: 150 px;
             width: 300px;
             height: 400px;
             overflow-x: hide;
@@ -79,7 +81,7 @@
         }
 
         .container{
-            
+            flex-direction: column;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -108,35 +110,6 @@
             font-family: 'Victor Mono', monospace;
         }
 
-        /* @media only screen and (max-width: 768px){
-        .container{
-            display: flex;
-            flex-direction: column;
-            margin: 100px;
-            width: 400px;
-            height: 600px;
-        }
-
-        .multitable{
-            margin: 100px;
-            width: 400px;
-            height: 600px;
-            overflow-x: hide;
-            overflow-y: scroll;
-           
-    
-            font-size: 50px;
-            font-family: Itim;
-
-            display: flex;
-            justify-content: center;
-
-            background: #EAD196;
-
-            
-            text-transform: uppercase;
-            color: black;
-        } */
 }
 
     </style>
