@@ -11,18 +11,15 @@
 
     
     <div class=container>
-    <div>
-    
+        <div>
             <?php 
                 for($i=1 ; $i <= 24 ; $i++){
                     echo "<br/> $multi_x X $i = ".($multi_x * $i);
                 }
             ?>
-        
         </div>
     </div>
 
-    
     <style>
         div{
             
@@ -30,6 +27,8 @@
             height: 265px;
             overflow-x: hide;
             overflow-y: scroll;
+
+            border: 1px solid pink;
         }
 
         h1{
