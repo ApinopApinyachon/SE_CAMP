@@ -18,7 +18,7 @@
                 <h1>ตารางสูตรคูณแม่ <?php echo $multi_x ?></h1>
             </div>   
 
-            <div>
+            <div class="container-table">
                 <div class=multitable>
                     <?php 
                         for($i=1 ; $i <= 24 ; $i++){
@@ -33,41 +33,14 @@
      
 
     <style>
-        .multitable{
-            margin: 150 px;
-            width: 300px;
-            height: 400px;
-            overflow-x: hide;
-            overflow-y: scroll;
-           
-    
-            font-size: 40px;
-            font-family: Itim;
-
-            display: flex;
-            justify-content: center;
-
-            background: #EAD196;
-
-            
-            text-transform: uppercase;
-            color: black;
-            /* text-shadow: 1px 1px 1px white, 1px 2px 1px white, 1px 3px 1px white, 1px 4px 1px white, 1px 5px 1px white, 1px 6px 10px white; */
-            /* text-shadow: 1px 1px 1px black, 1px 2px 1px black, 1px 3px 1px black, 1px 4px 1px black, 1px 5px 1px black, 1px 6px 10px black; */
-        }
-
-       
         .h1div{
-
             display: flex;
             justify-content: center;
             align-items: center;
             background-color: #7D0A0A;
             margin: 0;
             font-size: 30px;
-            
-            width: 100%;
-            
+            width: 100%;   
         }
 
         h1{
@@ -84,13 +57,34 @@
             flex-direction: column;
             display: flex;
             align-items: center;
-            justify-content: center;
             width: 100%;
-            
+            height: 100vh;
             margin: 0px;
             padding: 0px;
             overflow: auto;
-            
+        }
+
+        .container-table{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .multitable{
+            width: 300px;
+            height: 400px;
+            overflow-y: scroll;
+            font-size: 40px;
+            font-family: Itim;
+            display: flex;
+            justify-content: center;           
+            text-transform: uppercase;
+            color: black;
+            background: #EAD196;
+            padding: 10px;
+            /* text-shadow: 1px 1px 1px white, 1px 2px 1px white, 1px 3px 1px white, 1px 4px 1px white, 1px 5px 1px white, 1px 6px 10px white; */
+            /* text-shadow: 1px 1px 1px black, 1px 2px 1px black, 1px 3px 1px black, 1px 4px 1px black, 1px 5px 1px black, 1px 6px 10px black; */
         }
 
         body{
@@ -109,9 +103,6 @@
             font-family: 'Roboto Mono', monospace;
             font-family: 'Victor Mono', monospace;
         }
-
-}
-
     </style>
 
 </body>
